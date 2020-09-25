@@ -57,14 +57,14 @@ const Footer = () => {
           </div>
           <small className="website-rights">Eduardo Sanchez © 2020</small>
           <div className="social-icons">
-            <Link
+            <a
               className="social-icon-link instagram"
-              to="https://www.instagram.com/eddiesanchezz_/"
+              href="https://www.instagram.com/eddiesanchezz_/"
               target="_blank"
               aria-label="Instagram"
             >
               <i className="fab fa-instagram"></i>
-            </Link>
+            </a>
           </div>
         </div>
       </section>
