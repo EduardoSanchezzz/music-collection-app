@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/music-collection-app/static/css/main.67c5eabb.chunk.css",
-    "main.js": "/music-collection-app/static/js/main.118279c0.chunk.js",
-    "main.js.map": "/music-collection-app/static/js/main.118279c0.chunk.js.map",
+    "main.js": "/music-collection-app/static/js/main.86adf427.chunk.js",
+    "main.js.map": "/music-collection-app/static/js/main.86adf427.chunk.js.map",
     "runtime-main.js": "/music-collection-app/static/js/runtime-main.c062069a.js",
     "runtime-main.js.map": "/music-collection-app/static/js/runtime-main.c062069a.js.map",
     "static/js/2.6ae0b32e.chunk.js": "/music-collection-app/static/js/2.6ae0b32e.chunk.js",
     "static/js/2.6ae0b32e.chunk.js.map": "/music-collection-app/static/js/2.6ae0b32e.chunk.js.map",
     "index.html": "/music-collection-app/index.html",
-    "precache-manifest.547b63357636eddadf974f4323ceaec0.js": "/music-collection-app/precache-manifest.547b63357636eddadf974f4323ceaec0.js",
+    "precache-manifest.2281ad6850b71840b604336c1cc60827.js": "/music-collection-app/precache-manifest.2281ad6850b71840b604336c1cc60827.js",
     "service-worker.js": "/music-collection-app/service-worker.js",
     "static/css/main.67c5eabb.chunk.css.map": "/music-collection-app/static/css/main.67c5eabb.chunk.css.map",
     "static/js/2.6ae0b32e.chunk.js.LICENSE.txt": "/music-collection-app/static/js/2.6ae0b32e.chunk.js.LICENSE.txt",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.c062069a.js",
     "static/js/2.6ae0b32e.chunk.js",
     "static/css/main.67c5eabb.chunk.css",
-    "static/js/main.118279c0.chunk.js"
+    "static/js/main.86adf427.chunk.js"
   ]
 }
