@@ -51,18 +51,20 @@ const Footer = () => {
       <section className="social-media">
         <div className="social-media-wrap">
           <div className="footer-logo">
-            <Link to="/" className="social logo"></Link>
-            <small className="website-rights">Eduardo Sanchez © 2020</small>
-            <div className="social-icons">
-              <Link
-                className="social-icon-link instagram"
-                to="/"
-                target="_blank"
-                aria-label="Instagram"
-              >
-                <i className="fab fa-instagram"></i>
-              </Link>
-            </div>
+            <Link to="/" className="social-logo">
+              NCHZ
+            </Link>
+          </div>
+          <small className="website-rights">Eduardo Sanchez © 2020</small>
+          <div className="social-icons">
+            <Link
+              className="social-icon-link instagram"
+              to="/"
+              target="_blank"
+              aria-label="Instagram"
+            >
+              <i className="fab fa-instagram"></i>
+            </Link>
           </div>
         </div>
       </section>
