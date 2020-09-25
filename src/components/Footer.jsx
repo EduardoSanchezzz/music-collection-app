@@ -6,22 +6,6 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer-container">
-      <section className="footer-subscription">
-        <p className="footer-subscription-heading">Footer Text</p>
-        <p className="footer-subscription-text">Ur pre cool uk🥵</p>
-        <div className="input-areas">
-          <form action="">
-            <input
-              type="email"
-              name="email"
-              id=""
-              placeholder="Enter your email here"
-              className="footer-input"
-            />
-            <Button buttonStyle="btn--outline">Subscribe</Button>
-          </form>
-        </div>
-      </section>
       <div className="footer-links">
         <div className="footer-links-wrapper">
           <div className="footer-link-items">
