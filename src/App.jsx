@@ -8,7 +8,7 @@ import { Services } from "./components/pages/Services";
 function App() {
   return (
     <>
-      <Router basename="/react-website-test">
+      <Router basename="/music-collection-app">
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
