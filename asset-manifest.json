@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/react-website-test/static/css/main.23d0976f.chunk.css",
-    "main.js": "/react-website-test/static/js/main.c7170c40.chunk.js",
-    "main.js.map": "/react-website-test/static/js/main.c7170c40.chunk.js.map",
-    "runtime-main.js": "/react-website-test/static/js/runtime-main.f846dd8d.js",
-    "runtime-main.js.map": "/react-website-test/static/js/runtime-main.f846dd8d.js.map",
-    "static/js/2.78065d92.chunk.js": "/react-website-test/static/js/2.78065d92.chunk.js",
-    "static/js/2.78065d92.chunk.js.map": "/react-website-test/static/js/2.78065d92.chunk.js.map",
-    "index.html": "/react-website-test/index.html",
-    "precache-manifest.412c9a8e68170e916e6491a80c801dd4.js": "/react-website-test/precache-manifest.412c9a8e68170e916e6491a80c801dd4.js",
-    "service-worker.js": "/react-website-test/service-worker.js",
-    "static/css/main.23d0976f.chunk.css.map": "/react-website-test/static/css/main.23d0976f.chunk.css.map",
-    "static/js/2.78065d92.chunk.js.LICENSE.txt": "/react-website-test/static/js/2.78065d92.chunk.js.LICENSE.txt",
-    "static/media/bg-vid-2.mp4": "/react-website-test/static/media/bg-vid-2.2e263e3d.mp4",
-    "static/media/img-1.jpg": "/react-website-test/static/media/img-1.4fcc2f27.jpg",
-    "static/media/img-2.jpg": "/react-website-test/static/media/img-2.ab0bbed2.jpg",
-    "static/media/img-3.jpg": "/react-website-test/static/media/img-3.838c2a8c.jpg",
-    "static/media/img-4.jpg": "/react-website-test/static/media/img-4.83f21c48.jpg",
-    "static/media/img-6.jpg": "/react-website-test/static/media/img-6.8de2dc53.jpg",
-    "static/media/App.css": "/react-website-test/static/media/img-8.cb1d1cfe.jpg"
+    "main.css": "/music-collection-app/static/css/main.67c5eabb.chunk.css",
+    "main.js": "/music-collection-app/static/js/main.118279c0.chunk.js",
+    "main.js.map": "/music-collection-app/static/js/main.118279c0.chunk.js.map",
+    "runtime-main.js": "/music-collection-app/static/js/runtime-main.c062069a.js",
+    "runtime-main.js.map": "/music-collection-app/static/js/runtime-main.c062069a.js.map",
+    "static/js/2.6ae0b32e.chunk.js": "/music-collection-app/static/js/2.6ae0b32e.chunk.js",
+    "static/js/2.6ae0b32e.chunk.js.map": "/music-collection-app/static/js/2.6ae0b32e.chunk.js.map",
+    "index.html": "/music-collection-app/index.html",
+    "precache-manifest.547b63357636eddadf974f4323ceaec0.js": "/music-collection-app/precache-manifest.547b63357636eddadf974f4323ceaec0.js",
+    "service-worker.js": "/music-collection-app/service-worker.js",
+    "static/css/main.67c5eabb.chunk.css.map": "/music-collection-app/static/css/main.67c5eabb.chunk.css.map",
+    "static/js/2.6ae0b32e.chunk.js.LICENSE.txt": "/music-collection-app/static/js/2.6ae0b32e.chunk.js.LICENSE.txt",
+    "static/media/bg-vid-2.mp4": "/music-collection-app/static/media/bg-vid-2.2e263e3d.mp4",
+    "static/media/img-1.jpg": "/music-collection-app/static/media/img-1.4fcc2f27.jpg",
+    "static/media/img-2.jpg": "/music-collection-app/static/media/img-2.ab0bbed2.jpg",
+    "static/media/img-3.jpg": "/music-collection-app/static/media/img-3.838c2a8c.jpg",
+    "static/media/img-4.jpg": "/music-collection-app/static/media/img-4.83f21c48.jpg",
+    "static/media/img-6.jpg": "/music-collection-app/static/media/img-6.8de2dc53.jpg",
+    "static/media/App.css": "/music-collection-app/static/media/img-8.cb1d1cfe.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f846dd8d.js",
-    "static/js/2.78065d92.chunk.js",
-    "static/css/main.23d0976f.chunk.css",
-    "static/js/main.c7170c40.chunk.js"
+    "static/js/runtime-main.c062069a.js",
+    "static/js/2.6ae0b32e.chunk.js",
+    "static/css/main.67c5eabb.chunk.css",
+    "static/js/main.118279c0.chunk.js"
   ]
 }
