@@ -11,13 +11,13 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src="images/img-1.jpg"
+              src={require("../images/img-1.jpg")}
               text="Just a really long descrptioton of thos music like dammmnnnnnnn this bih long"
               label="Music"
               path="/services"
             />
             <CardItem
-              src="images/img-2.jpg"
+              src={require("../images/img-2.jpg")}
               text="Just a really long descrptioton of thos music like dammmnnnnnnn this bih long"
               label="Music"
               path="/services"
@@ -25,19 +25,19 @@ function Cards() {
           </ul>
           <ul className="cards__items">
             <CardItem
-              src="images/img-3.jpg"
+              src={require("../images/img-3.jpg")}
               text="Just a really long descrptioton of thos music like dammmnnnnnnn this bih long"
               label="Music"
               path="/services"
             />
             <CardItem
-              src="images/img-4.jpg"
+              src={require("../images/img-4.jpg")}
               text="Just a really long descrptioton of thos music like dammmnnnnnnn this bih long"
               label="Music"
               path="/services"
             />
             <CardItem
-              src="images/img-6.jpg"
+              src={require("../images/img-6.jpg")}
               text="Just a really long descrptioton of thos music like dammmnnnnnnn this bih long"
               label="Music"
               path="/services"
