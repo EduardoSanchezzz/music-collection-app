@@ -59,7 +59,7 @@ const Footer = () => {
           <div className="social-icons">
             <Link
               className="social-icon-link instagram"
-              to="/"
+              to="https://www.instagram.com/eddiesanchezz_/"
               target="_blank"
               aria-label="Instagram"
             >
