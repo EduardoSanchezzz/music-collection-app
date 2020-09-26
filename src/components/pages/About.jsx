@@ -7,7 +7,10 @@ export function About() {
     <div>
       <div className="about">
         <h1>About Me</h1>
-        <p>Hi My name is Eduardo Sanchez</p>
+        <p>
+          Hi, my name's eddie and this is a website I created using ReactJS to
+          showcase some of my favourite albums
+        </p>
       </div>
 
       <Footer />
