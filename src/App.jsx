@@ -7,7 +7,7 @@ import { Services } from "./components/pages/Services";
 
 function App() {
   return (
-    <>
+    <React.Fragment>
       <Router basename="/music-collection-app">
         <Navbar />
         <Switch>
@@ -16,7 +16,7 @@ function App() {
           <Route path="/services" component={Services} />
         </Switch>
       </Router>
-    </>
+    </React.Fragment>
   );
 }
 

@@ -17,7 +17,7 @@ const HeroSection = () => {
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
-          linkTo="/home/#favourites"
+          linkTo="/"
         >
           EXPLORE
         </Button>

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Button.css";
-import { Link } from "react-router-dom";
-// import { HashLink as Link } from "react-router-hash-link";
+// import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 const STYLES = ["btn--primary", "btn--outline"];
 
@@ -24,10 +24,15 @@ export const Button = ({
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
   return (
-    <Link to={linkTo} className="btn-mobile">
+    <Link smooth to={linkTo} className="btn-mobile" target="_self">
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
-        onClick={onClick}
+        onClick={() => {
+          window.scrollTo({
+            top: 800,
+            behavior: "smooth",
+          });
+        }}
         type={type}
       >
         {children}

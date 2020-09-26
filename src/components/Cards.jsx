@@ -6,7 +6,7 @@ function Cards() {
   return (
     <div className="cards">
       <h1>MY FAVOURITES</h1>
-      <a name="favourites" href="fav"></a>
+      <div id="scrollTo"></div>
       <div className="card__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
