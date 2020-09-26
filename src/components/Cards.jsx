@@ -12,34 +12,39 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src={require("../images/img-1.jpg")}
-              text="Just a really long descrptioton of thos music like dammmnnnnnnn this bih long"
-              label="Music"
+              albumName="Rodeo"
+              artistName="Travi$ Scott"
+              label="2015"
               path="/services"
             />
             <CardItem
               src={require("../images/img-2.jpg")}
-              text="Just a really long descrptioton of thos music like dammmnnnnnnn this bih long"
-              label="Music"
+              albumName="Die Lit"
+              artistName="Playboi Carti"
+              label="2018"
               path="/services"
             />
           </ul>
           <ul className="cards__items">
             <CardItem
               src={require("../images/img-3.jpg")}
-              text="Just a really long descrptioton of thos music like dammmnnnnnnn this bih long"
-              label="Music"
+              albumName="Echoes of Silence"
+              artistName="The Weeknd"
+              label="2011"
               path="/services"
             />
             <CardItem
               src={require("../images/img-4.jpg")}
-              text="Just a really long descrptioton of thos music like dammmnnnnnnn this bih long"
-              label="Music"
+              albumName="IGOR"
+              artistName="Tyler, The Creator"
+              label="2019"
               path="/services"
             />
             <CardItem
               src={require("../images/img-6.jpg")}
-              text="Just a really long descrptioton of thos music like dammmnnnnnnn this bih long"
-              label="Music"
+              albumName="Lil Uzi Vert Vs. The World"
+              artistName="Lil Uzi Vert"
+              label="2016"
               path="/services"
             />
           </ul>

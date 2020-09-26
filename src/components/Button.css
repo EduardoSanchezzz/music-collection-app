@@ -35,13 +35,13 @@
 
 .btn--medium:hover,
 .btn--large:hover {
-  background: rgb(243, 37, 157);
+  background: #f3259d;
   color: #fff;
   transition: all 0.3s ease-out;
 }
 
 .btn--primary:hover {
-  background: rgb(243, 37, 157);
+  background: #f3259d;
   color: #fff;
   transition: all 0.3s ease-out;
 }

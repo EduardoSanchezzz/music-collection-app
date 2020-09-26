@@ -10,6 +10,8 @@ const Navbar = () => {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
+  const goToTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
+
   const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false);
@@ -28,7 +30,11 @@ const Navbar = () => {
     <React.Fragment>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+          <Link
+            to="/"
+            className="navbar-logo"
+            onClick={(closeMobileMenu, goToTop)}
+          >
             <i className="fab fa-stripe-s"></i> NCHZ
           </Link>
           <div className="menu-icon" onClick={handleClick}>
@@ -37,9 +43,9 @@ const Navbar = () => {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link
-                to="/home/#favourites"
+                to="/"
                 className="nav-links"
-                onClick={closeMobileMenu}
+                onClick={(closeMobileMenu, goToTop)}
               >
                 Home
               </Link>
@@ -50,7 +56,7 @@ const Navbar = () => {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Services
+                My Favourites
               </Link>
             </li>
             <li className="nav-item">
@@ -59,7 +65,7 @@ const Navbar = () => {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                products
+                Recently Featured
               </Link>
             </li>
             <li className="nav-item">
@@ -68,13 +74,13 @@ const Navbar = () => {
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
-                Sign Up
+                About
               </Link>
             </li>
           </ul>
           {button && (
             <Button buttonStyle="btn--outline" linkTo="/learnMore">
-              SIGN UP
+              LEARN MORE
             </Button>
           )}
         </div>

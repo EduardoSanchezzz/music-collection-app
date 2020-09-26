@@ -3,8 +3,20 @@
   background: #fff;
 }
 
-h1 {
-  text-align: center;
+.cards h1 {
+  display: inline;
+  position: relative;
+  font: 15vw Helvetica, Sans-Serif;
+  letter-spacing: -5px;
+  color: rgba(0, 0, 255, 0.5);
+}
+
+.cards h1:after {
+  content: "MY FAVOURITES";
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  color: rgba(255, 0, 0, 0.5);
 }
 
 .cards__container {
@@ -95,8 +107,12 @@ h1 {
 
 .cards__item__text {
   color: #252e48;
-  font-size: 18px;
+  font-size: 26px;
   line-height: 24px;
+}
+.cards__item__artist {
+  color: #f3259d;
+  font-size: 20px;
 }
 
 @media only screen and (min-width: 1200px) {
