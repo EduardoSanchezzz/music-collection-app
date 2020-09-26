@@ -15,14 +15,14 @@ function Cards() {
               albumName="Rodeo"
               artistName="Travi$ Scott"
               label="2015"
-              path="/services"
+              path="/song-info"
             />
             <CardItem
               src={require("../images/img-2.jpg")}
               albumName="Die Lit"
               artistName="Playboi Carti"
               label="2018"
-              path="/services"
+              path="/song-info"
             />
           </ul>
           <ul className="cards__items">
@@ -31,21 +31,21 @@ function Cards() {
               albumName="Echoes of Silence"
               artistName="The Weeknd"
               label="2011"
-              path="/services"
+              path="/song-info"
             />
             <CardItem
               src={require("../images/img-4.jpg")}
               albumName="IGOR"
               artistName="Tyler, The Creator"
               label="2019"
-              path="/services"
+              path="/song-info"
             />
             <CardItem
               src={require("../images/img-6.jpg")}
               albumName="Lil Uzi Vert Vs. The World"
               artistName="Lil Uzi Vert"
               label="2016"
-              path="/services"
+              path="/song-info"
             />
           </ul>
         </div>
