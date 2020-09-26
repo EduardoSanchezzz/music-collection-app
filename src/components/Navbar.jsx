@@ -52,7 +52,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link
-                to="/services"
+                to="/favourites"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -61,7 +61,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link
-                to="/products"
+                to="/featured"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -70,7 +70,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link
-                to="/sign-up"
+                to="/about"
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
@@ -79,7 +79,7 @@ const Navbar = () => {
             </li>
           </ul>
           {button && (
-            <Button buttonStyle="btn--outline" linkTo="/learnMore">
+            <Button buttonStyle="btn--outline" linkTo="/about">
               LEARN MORE
             </Button>
           )}
