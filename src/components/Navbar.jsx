@@ -1,4 +1,4 @@
-import React, { Component, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { Button } from "./Button.jsx";
@@ -36,7 +36,11 @@ const Navbar = () => {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              <Link
+                to="/home/#favourites"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 Home
               </Link>
             </li>
@@ -55,7 +59,7 @@ const Navbar = () => {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                bruh🥵 products
+                products
               </Link>
             </li>
             <li className="nav-item">
@@ -68,7 +72,11 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
+          {button && (
+            <Button buttonStyle="btn--outline" linkTo="/learnMore">
+              SIGN UP
+            </Button>
+          )}
         </div>
       </nav>
     </React.Fragment>

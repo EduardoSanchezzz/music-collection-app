@@ -2,28 +2,32 @@ import React from "react";
 import { Button } from "./Button";
 import "./HeroSection.css";
 import "../App.css";
-import video from "../images/bg-vid-2.mp4";
+import video from "../images/bg-vid.mp4";
 
 const HeroSection = () => {
   return (
     <div className="hero-container">
       <video src={video} autoPlay loop muted></video>
-      <h1>ADVENTURE AWAITS</h1>
-      <p>What are you waiting for?</p>
+      <h1>SICK BEATS AHEAD!</h1>
+      <p>
+        A COLLECTION OF SOME GOOD MUSIC <i className="fas fa-arrow-down"></i>
+      </p>
       <div className="hero-btns">
         <Button
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
+          linkTo="/home/#favourites"
         >
-          GET STARTED
+          EXPLORE
         </Button>
         <Button
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
+          linkTo="/learnMore"
         >
-          WATCH TRAILER <i className="far fa-play-circle" />
+          LEARN MORE
         </Button>
       </div>
     </div>

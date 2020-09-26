@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import "./Footer.css";
 
@@ -35,6 +34,7 @@ const Footer = () => {
               className="social-icon-link instagram"
               href="https://www.instagram.com/eddiesanchezz_/"
               target="_blank"
+              rel="noopener noreferrer"
               aria-label="Instagram"
             >
               <i className="fab fa-instagram"></i>
@@ -43,6 +43,7 @@ const Footer = () => {
               className="social-icon-link facebook"
               href="https://www.facebook.com/eddiesanchezzz/"
               target="_blank"
+              rel="noopener noreferrer"
               aria-label="Facebook"
             >
               <i className="fab fa-facebook"></i>
@@ -51,9 +52,10 @@ const Footer = () => {
               className="social-icon-link snapchat"
               to="/snapchat"
               target="_blank"
+              rel="noopener noreferrer"
               aria-label="Snapchat"
             >
-              <i class="fab fa-snapchat-square"></i>
+              <i className="fab fa-snapchat-square"></i>
             </Link>
           </div>
         </div>

@@ -1,10 +1,13 @@
-import React, { Component } from "react";
+import React from "react";
 import "./Button.css";
 import { Link } from "react-router-dom";
+// import { HashLink as Link } from "react-router-hash-link";
 
 const STYLES = ["btn--primary", "btn--outline"];
 
 const SIZES = ["btn--medium", "btn--large"];
+
+// const LINKS = ["favourites", "learnMore"];
 
 export const Button = ({
   children,
@@ -12,6 +15,7 @@ export const Button = ({
   onClick,
   buttonStyle,
   buttonSize,
+  linkTo,
 }) => {
   const checkButtonStyle = STYLES.includes(buttonStyle)
     ? buttonStyle
@@ -20,7 +24,7 @@ export const Button = ({
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
   return (
-    <Link to="/sign-up" className="btn-mobile">
+    <Link to={linkTo} className="btn-mobile">
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}
