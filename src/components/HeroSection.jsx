@@ -8,9 +8,9 @@ const HeroSection = () => {
   return (
     <div className="hero-container">
       <video src={video} autoPlay loop muted></video>
-      <h1>EXPERIENCE COOL MUSIC!</h1>
+      <h1>EXPERIENCE MUSIC!</h1>
       <p>
-        A SHOWCASE OF SOME GOOD MUSIC <i className="fas fa-arrow-down"></i>
+        A SHOWCASE OF SOME COOL MUSIC <i className="fas fa-arrow-down"></i>
       </p>
       <div className="hero-btns">
         <Button
