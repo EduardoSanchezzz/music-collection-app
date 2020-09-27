@@ -13,6 +13,7 @@ const HeroSection = () => {
         loop
         muted
         poster="../images/bg-img.png"
+        playsInline
       ></video>
       <h1>EXPERIENCE MUSIC!</h1>
       <p>
