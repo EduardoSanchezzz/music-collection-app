@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/music-collection-app/static/css/main.5c9d0be5.chunk.css",
-    "main.js": "/music-collection-app/static/js/main.c4ad00e5.chunk.js",
-    "main.js.map": "/music-collection-app/static/js/main.c4ad00e5.chunk.js.map",
+    "main.css": "/music-collection-app/static/css/main.edf2d526.chunk.css",
+    "main.js": "/music-collection-app/static/js/main.5aa218e7.chunk.js",
+    "main.js.map": "/music-collection-app/static/js/main.5aa218e7.chunk.js.map",
     "runtime-main.js": "/music-collection-app/static/js/runtime-main.c062069a.js",
     "runtime-main.js.map": "/music-collection-app/static/js/runtime-main.c062069a.js.map",
-    "static/js/2.38e0955a.chunk.js": "/music-collection-app/static/js/2.38e0955a.chunk.js",
-    "static/js/2.38e0955a.chunk.js.map": "/music-collection-app/static/js/2.38e0955a.chunk.js.map",
+    "static/js/2.0f10b8f1.chunk.js": "/music-collection-app/static/js/2.0f10b8f1.chunk.js",
+    "static/js/2.0f10b8f1.chunk.js.map": "/music-collection-app/static/js/2.0f10b8f1.chunk.js.map",
     "index.html": "/music-collection-app/index.html",
-    "precache-manifest.e1a8d67ede82874d939b526ebf3d566d.js": "/music-collection-app/precache-manifest.e1a8d67ede82874d939b526ebf3d566d.js",
+    "precache-manifest.e1e6202b3038be22bb75ed524944be30.js": "/music-collection-app/precache-manifest.e1e6202b3038be22bb75ed524944be30.js",
     "service-worker.js": "/music-collection-app/service-worker.js",
-    "static/css/main.5c9d0be5.chunk.css.map": "/music-collection-app/static/css/main.5c9d0be5.chunk.css.map",
-    "static/js/2.38e0955a.chunk.js.LICENSE.txt": "/music-collection-app/static/js/2.38e0955a.chunk.js.LICENSE.txt",
+    "static/css/main.edf2d526.chunk.css.map": "/music-collection-app/static/css/main.edf2d526.chunk.css.map",
+    "static/js/2.0f10b8f1.chunk.js.LICENSE.txt": "/music-collection-app/static/js/2.0f10b8f1.chunk.js.LICENSE.txt",
     "static/media/bg-vid.mp4": "/music-collection-app/static/media/bg-vid.2eb265b6.mp4",
     "static/media/img-1.jpg": "/music-collection-app/static/media/img-1.4fcc2f27.jpg",
-    "static/media/App.css": "/music-collection-app/static/media/img-10.e5d62480.jpg",
+    "static/media/App.css": "/music-collection-app/static/media/img-5.57886349.jpg",
     "static/media/img-2.jpg": "/music-collection-app/static/media/img-2.ab0bbed2.jpg",
     "static/media/img-3.jpg": "/music-collection-app/static/media/img-3.838c2a8c.jpg",
     "static/media/img-4.jpg": "/music-collection-app/static/media/img-4.83f21c48.jpg",
-    "static/media/img-6.jpg": "/music-collection-app/static/media/img-6.8de2dc53.jpg"
+    "static/media/img-6.jpg": "/music-collection-app/static/media/img-6.8de2dc53.jpg",
+    "static/media/snapcode.svg": "/music-collection-app/static/media/snapcode.41ece1fc.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c062069a.js",
-    "static/js/2.38e0955a.chunk.js",
-    "static/css/main.5c9d0be5.chunk.css",
-    "static/js/main.c4ad00e5.chunk.js"
+    "static/js/2.0f10b8f1.chunk.js",
+    "static/css/main.edf2d526.chunk.css",
+    "static/js/main.5aa218e7.chunk.js"
   ]
 }

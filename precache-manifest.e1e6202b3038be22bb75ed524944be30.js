@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "40adb8212776bd0c9609ed9bd9d07a30",
+    "revision": "fc2385d0e33e2699fafec81822efea3b",
     "url": "/music-collection-app/index.html"
   },
   {
-    "revision": "14af839e50db28e24338",
-    "url": "/music-collection-app/static/css/main.5c9d0be5.chunk.css"
+    "revision": "d482cb2be40ce27a47a1",
+    "url": "/music-collection-app/static/css/main.edf2d526.chunk.css"
   },
   {
-    "revision": "4fcd7cae9f221ae938d7",
-    "url": "/music-collection-app/static/js/2.38e0955a.chunk.js"
+    "revision": "049962edd7ca113f882b",
+    "url": "/music-collection-app/static/js/2.0f10b8f1.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/music-collection-app/static/js/2.38e0955a.chunk.js.LICENSE.txt"
+    "url": "/music-collection-app/static/js/2.0f10b8f1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "14af839e50db28e24338",
-    "url": "/music-collection-app/static/js/main.c4ad00e5.chunk.js"
+    "revision": "d482cb2be40ce27a47a1",
+    "url": "/music-collection-app/static/js/main.5aa218e7.chunk.js"
   },
   {
     "revision": "998437980e307276b214",
@@ -48,7 +48,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/music-collection-app/static/media/img-4.83f21c48.jpg"
   },
   {
+    "revision": "578863493706d4f032cd159c6e56feb0",
+    "url": "/music-collection-app/static/media/img-5.57886349.jpg"
+  },
+  {
     "revision": "8de2dc53a961dc3ae450ab481bc41477",
     "url": "/music-collection-app/static/media/img-6.8de2dc53.jpg"
+  },
+  {
+    "revision": "41ece1fc19c9ae5e7281860fd7b7fdf8",
+    "url": "/music-collection-app/static/media/snapcode.41ece1fc.svg"
   }
 ]);
