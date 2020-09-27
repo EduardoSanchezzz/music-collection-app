@@ -110,7 +110,7 @@
   color: #fcd0f6;
   font-size: 100px;
 }
-.snapchat {
+.snapchat-page {
   width: 100%;
   height: 90vh;
   background-position: center;
@@ -122,12 +122,12 @@
   justify-content: space-around;
   align-items: center;
 }
-.snapchat h1 {
+.snapchat-page h1 {
   padding: 20px;
   font-size: 60px;
   color: #fffb06;
 }
-.snapchat p {
+.snapchat-page p {
   color: #fffb06;
   font-size: 26px;
 }
