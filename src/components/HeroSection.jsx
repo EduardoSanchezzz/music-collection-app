@@ -25,7 +25,7 @@ const HeroSection = () => {
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
-          linkTo="/learnMore"
+          linkTo="/about"
         >
           LEARN MORE
         </Button>

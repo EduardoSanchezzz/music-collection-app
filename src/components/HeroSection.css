@@ -4,10 +4,11 @@ video {
   height: 100%;
   position: fixed;
   z-index: -1;
+  background: url("../images/bg-img.png") center center/cover no-repeat;
 }
 
 .hero-container {
-  /* background: url("images/img-home.jpg") center center/cover no-repeat; */
+  /* background: url("../images/bg-img.png") center center/cover no-repeat; */
   height: 100vh;
   width: 100%;
   display: flex;
