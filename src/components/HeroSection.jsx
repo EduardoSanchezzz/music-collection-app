@@ -7,7 +7,13 @@ import video from "../images/bg-vid.mp4";
 const HeroSection = () => {
   return (
     <div className="hero-container">
-      <video src={video} autoPlay loop muted></video>
+      <video
+        src={video}
+        autoPlay
+        loop
+        muted
+        poster="../images/bg-img.png"
+      ></video>
       <h1>EXPERIENCE MUSIC!</h1>
       <p>
         A SHOWCASE OF SOME COOL MUSIC <i className="fas fa-arrow-down"></i>
