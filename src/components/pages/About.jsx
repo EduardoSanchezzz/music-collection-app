@@ -8,8 +8,8 @@ export function About() {
       <div className="about">
         <h1>About Me</h1>
         <p>
-          Hi, my name's eddie and this is a website I created using ReactJS to
-          showcase some of my favourite albums
+          Hi, my name's Eduardo Sanchez. This is a website I created to showcase
+          my ReactJS skillset and some albums I like to listen to
         </p>
       </div>
 
