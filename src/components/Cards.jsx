@@ -15,14 +15,14 @@ function Cards() {
               albumName="Rodeo"
               artistName="Travi$ Scott"
               label="2015"
-              path="/song-info"
+              path="https://music.apple.com/us/album/rodeo-expanded-edition/1456176981"
             />
             <CardItem
               src={require("../images/img-2.jpg")}
               albumName="Die Lit"
               artistName="Playboi Carti"
               label="2018"
-              path="/song-info"
+              path="https://music.apple.com/us/album/die-lit/1381553184"
             />
           </ul>
           <ul className="cards__items">
@@ -31,21 +31,21 @@ function Cards() {
               albumName="Echoes of Silence"
               artistName="The Weeknd"
               label="2011"
-              path="/song-info"
+              path="https://music.apple.com/us/album/echoes-of-silence/1445890212"
             />
             <CardItem
               src={require("../images/img-4.jpg")}
               albumName="IGOR"
               artistName="Tyler, The Creator"
               label="2019"
-              path="/song-info"
+              path="https://music.apple.com/us/album/igor/1463409338"
             />
             <CardItem
               src={require("../images/img-6.jpg")}
               albumName="Lil Uzi Vert Vs. The World"
               artistName="Lil Uzi Vert"
               label="2016"
-              path="/song-info"
+              path="https://music.apple.com/us/album/lil-uzi-vert-vs-the-world/1116298635"
             />
           </ul>
         </div>

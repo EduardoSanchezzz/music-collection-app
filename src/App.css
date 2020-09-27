@@ -5,6 +5,76 @@
   font-family: "PT Sans", sans-serif;
 }
 
+.loader-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vmax;
+  height: 100vmax;
+  background-color: #242424;
+  z-index: 101;
+}
+.loader-ani {
+  position: absolute;
+  top: calc(50% - 4em);
+  left: calc(50% - 4em);
+  width: 6em;
+  height: 6em;
+  border: 1.1em solid rgba(0, 0, 0, 0.2);
+  border-left: 1.1em solid #fff;
+  border-radius: 50%;
+  /* animation: load8 1.1s infinite linear; */
+  z-index: 999;
+}
+
+.loader--hideani {
+  animation: hideLoaderA 0.8s linear;
+  opacity: 0;
+}
+.loader--hidebg {
+  animation: hideLoaderB 1s ease-out;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes load8 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes hideLoaderA {
+  0% {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(360deg);
+  }
+}
+@keyframes hideLoaderB {
+  0% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0;
+    transform: translateX(0%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(110%);
+  }
+}
+
 .home,
 .about,
 .featured {
@@ -39,6 +109,30 @@
   background-repeat: no-repeat;
   color: #fcd0f6;
   font-size: 100px;
+}
+.snapchat {
+  width: 100%;
+  height: 90vh;
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  background-image: url("./images/img-5.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.snapchat h1 {
+  padding: 20px;
+  font-size: 60px;
+  color: #fffb06;
+}
+.snapchat p {
+  color: #fffb06;
+  font-size: 26px;
+}
+.username {
+  text-decoration: underline;
 }
 @media screen and (max-width: 960px) {
   .about > h1,
