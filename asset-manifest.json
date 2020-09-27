@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/music-collection-app/static/css/main.bf198ea7.chunk.css",
-    "main.js": "/music-collection-app/static/js/main.27245101.chunk.js",
-    "main.js.map": "/music-collection-app/static/js/main.27245101.chunk.js.map",
+    "main.css": "/music-collection-app/static/css/main.f64336c6.chunk.css",
+    "main.js": "/music-collection-app/static/js/main.0683b720.chunk.js",
+    "main.js.map": "/music-collection-app/static/js/main.0683b720.chunk.js.map",
     "runtime-main.js": "/music-collection-app/static/js/runtime-main.c062069a.js",
     "runtime-main.js.map": "/music-collection-app/static/js/runtime-main.c062069a.js.map",
     "static/js/2.0f10b8f1.chunk.js": "/music-collection-app/static/js/2.0f10b8f1.chunk.js",
     "static/js/2.0f10b8f1.chunk.js.map": "/music-collection-app/static/js/2.0f10b8f1.chunk.js.map",
     "index.html": "/music-collection-app/index.html",
-    "precache-manifest.96408728c52acfbb43647fcf1768cab4.js": "/music-collection-app/precache-manifest.96408728c52acfbb43647fcf1768cab4.js",
+    "precache-manifest.a4d20c7e5755225adabba4d12e74e530.js": "/music-collection-app/precache-manifest.a4d20c7e5755225adabba4d12e74e530.js",
     "service-worker.js": "/music-collection-app/service-worker.js",
-    "static/css/main.bf198ea7.chunk.css.map": "/music-collection-app/static/css/main.bf198ea7.chunk.css.map",
+    "static/css/main.f64336c6.chunk.css.map": "/music-collection-app/static/css/main.f64336c6.chunk.css.map",
     "static/js/2.0f10b8f1.chunk.js.LICENSE.txt": "/music-collection-app/static/js/2.0f10b8f1.chunk.js.LICENSE.txt",
     "static/media/bg-vid.mp4": "/music-collection-app/static/media/bg-vid.2eb265b6.mp4",
     "static/media/img-1.jpg": "/music-collection-app/static/media/img-1.4fcc2f27.jpg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.c062069a.js",
     "static/js/2.0f10b8f1.chunk.js",
-    "static/css/main.bf198ea7.chunk.css",
-    "static/js/main.27245101.chunk.js"
+    "static/css/main.f64336c6.chunk.css",
+    "static/js/main.0683b720.chunk.js"
   ]
 }
